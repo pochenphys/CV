@@ -1,0 +1,68 @@
+# =========================
+# OS / system junk
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Windows shortcuts / installers
+*.lnk
+*.msi
+*.cab
+*.exe
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cursor / local tooling
+.cursor/
+
+# =========================
+# Logs / temp
+# =========================
+*.log
+logs/
+tmp/
+temp/
+
+# =========================
+# Node / frontend (if you add tooling later)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+dist/
+build/
+.parcel-cache/
+.vite/
+.next/
+out/
+
+# =========================
+# Python (if you add scripts later)
+# =========================
+__pycache__/
+*.py[cod]
+.python-version
+.venv/
+venv/
+ENV/
+env/
+
+# =========================
+# Office temp files (your docx is kept, only ignore temp)
+# =========================
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
