@@ -737,10 +737,14 @@ a:hover {
   }
 }
 
-@media (max-width: 380px) {
+/* 僅手機直向：影片改為上下排列 */
+@media (max-width: 480px) {
   .video-grid {
     grid-template-columns: 1fr;
   }
+}
+
+@media (max-width: 380px) {
   .gallery {
     grid-template-columns: 1fr;
   }
